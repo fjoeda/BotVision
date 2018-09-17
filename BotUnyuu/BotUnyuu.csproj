@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>1dea0e09-e04d-4d35-bfd3-1c1b7f64e981</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Microsoft.Azure.CognitiveServices.Vision.ComputerVision" Version="3.2.0" />
+    <PackageReference Include="Microsoft.Bot.Builder.Core" Version="4.0.1-preview" />
+    <PackageReference Include="Microsoft.Bot.Builder.Core.Extensions" Version="4.0.1-preview" />
+    <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.0.1-preview" />
+  </ItemGroup>
+
+</Project>
